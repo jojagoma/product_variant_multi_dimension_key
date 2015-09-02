@@ -1,0 +1,42 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* product_variant_multi_dimension_key
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 5.0.15\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2015-08-29 18:33+0000\n"
+"PO-Revision-Date: 2015-08-29 18:33+0000\n"
+"Last-Translator: José Javier Goyos\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: product_variant_multi_dimension_key
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr "¡XML no válido para la arquitectura de la vista!"
+
+#. module: product_variant_multi_dimension_key
+#: field:product.variant.dimension.type,sales_key:0
+msgid "Sales Key"
+msgstr "Clave de ventas"
+
+#. module: product_variant_multi_dimension_key
+#: model:ir.module.module,shortdesc:product_variant_multi_dimension_key.module_meta_information
+msgid "Product Variant Multi Dimension Key"
+msgstr "Productos con variantes multi nivel (Clave de dimensiones)"
+
+#. module: product_variant_multi_dimension_key
+#: model:ir.module.module,description:product_variant_multi_dimension_key.module_meta_information
+msgid ""
+"This module extend the capacity of product_variant_multi \n"
+"giving the posibility of add an aditional field 'key' \n"
+"to the dimension for being used in the variant name"
+msgstr ""
+"Este módulo amplia la capacidad de product_variant_multi dando la \n"
+"posibilidad de agregar un campo adicional 'clave de ventas' \n"
+"a la dimensión para ser usada en el nombre de la variante.\n"
+

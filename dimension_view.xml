@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<openerp>
+    <data>
+		
+		<record id="product_variant_multi_dimension_type_key_tree" model="ir.ui.view">
+            <field name="name">product.variant.multi.dimension.type.key.tree</field>
+            <field name="model">product.variant.dimension.type</field>
+            <field name="type">tree</field>
+            <field name="inherit_id" ref="product_variant_multi.product_variant_multi_dimension_type_tree" />
+            <field name="arch" type="xml">			
+				<data>
+					<field name="description" position="after">
+						<field name="sales_key"/>
+					</field>	
+				</data>                
+            </field>
+        </record>
+        
+        <record id="product_variant_multi_dimension_type_key_form" model="ir.ui.view">
+            <field name="name">product.variant.multi.dimension.type.key.form</field>
+            <field name="model">product.variant.dimension.type</field>
+            <field name="type">form</field>
+            <field name="inherit_id" ref="product_variant_multi.product_variant_multi_dimension_type_form" />
+            <field name="arch" type="xml">			
+				<data>
+					<field name="description" position="after">
+						<field name="sales_key"/>
+					</field>	
+				</data>                
+            </field>
+        </record>
+                             
+    </data>
+</openerp>
